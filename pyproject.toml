@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "autocreate-table"
+version = "0.0.1"
+description = ""
+authors = ["kill_your_soul <platonovdi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "autocreate_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "4.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
